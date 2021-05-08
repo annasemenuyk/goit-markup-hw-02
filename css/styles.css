@@ -1,43 +1,58 @@
 /*палитра*/
-font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
-
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 .list {
-list-style: none;
+  list-style: none;
 }
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 /*Верхняя линия*/
 .logo {
-color:#2196F3;
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-border: 1px solid #000000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-text-transform: uppercase;
-text-decoration: none;
-cursor: pointer;
-}
-.ligo:hover {
-
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .logo-upline {
-color: #000000;
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.17px;
-letter-spacing: 0.03em;
-border: 1px solid #000000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-text-transform: uppercase;
-text-decoration: none;
-cursor: pointer;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  cursor: pointer;
 }
-
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contacts {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+/* Эффективные решения для вашего бизнеса */
