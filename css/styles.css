@@ -1,6 +1,9 @@
 /*палитра
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .list {
   list-style: none;
 }
@@ -31,7 +34,6 @@ font-family: 'Roboto', sans-serif;*/
   cursor: pointer;
 }
 .nav-item {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -44,7 +46,6 @@ font-family: 'Roboto', sans-serif;*/
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .contacts {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +58,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 /* Эффективные решения для вашего бизнеса */
 .header-main {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -68,7 +68,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 /* Шапка */
 .header-main-button {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -78,7 +77,6 @@ font-family: 'Roboto', sans-serif;*/
   background: #2196f3;
 }
 .header-main-button:hover {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -88,7 +86,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 /* Особенности */
 .specificsh {
-  font-family: 'Roboto', sans-serif;
   font-style: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -96,7 +93,6 @@ font-family: 'Roboto', sans-serif;*/
   color: #212121;
 }
 .specifics-text {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -104,7 +100,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 /*Чем мы занимаемся*/
 .working {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -112,7 +107,6 @@ font-family: 'Roboto', sans-serif;*/
   color: #212121;
 }
 .name {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -120,7 +114,6 @@ font-family: 'Roboto', sans-serif;*/
   color: #212121;
 }
 .profession {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -146,7 +139,6 @@ font-family: 'Roboto', sans-serif;*/
   background: #2f303a;
 }
 .address {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -154,7 +146,6 @@ font-family: 'Roboto', sans-serif;*/
   background: #2f303a;
 }
 .contacts-down {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,8 +157,9 @@ font-family: 'Roboto', sans-serif;*/
   color: #2196f3;
 }
 /*Портфоліо*/
+.hidden {
+}
 .filters {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -176,7 +168,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 .filters:hover,
 .filters:focus {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -185,7 +176,6 @@ font-family: 'Roboto', sans-serif;*/
   background: #2196f3;
 }
 .name-images {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -193,7 +183,6 @@ font-family: 'Roboto', sans-serif;*/
   color: #212121;
 }
 .name-kindofworks {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
